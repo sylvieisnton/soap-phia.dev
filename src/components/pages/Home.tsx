@@ -38,7 +38,12 @@ export function Identity({
 }) {
 	return (
 		<div className="identity">
-			<a className="pronouns" href="https://en.pronouns.page/@soap_phia/">
+			<a
+				target="_blank"
+				rel="noopener"
+				className="pronouns"
+				href="https://en.pronouns.page/@soap_phia/"
+			>
 				<h5>{pronouns}</h5>
 			</a>
 			{children}
