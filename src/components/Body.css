@@ -1,0 +1,34 @@
+.b {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-inline: auto;
+
+	background-color: var(--Mantle);
+
+	width: clamp(280px, 50vw, 720px);
+	height: auto;
+
+	margin: 8px auto;
+	border: 2px solid var(--Base);
+	padding: 8px;
+	padding-inline: 32px;
+	border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+	.b {
+		width: clamp(200px, 80vw, 480px);
+	}
+
+	.discord-card {
+		gap: 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	.b {
+		width: 90vw;
+	}
+}

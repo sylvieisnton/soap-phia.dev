@@ -1,0 +1,40 @@
+.blogitem-main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	gap: 16px;
+}
+
+.blogitem-back {
+	position: absolute;
+	top: 12px;
+	left: 0;
+}
+
+.blogitem-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 8px;
+	gap: 8px;
+}
+
+.blogitem-title {
+	margin: 0;
+}
+
+.blogitem-description, .blogitem-date {
+	margin: 0;
+	font-weight: 300;
+}
+
+.blogitem-content {
+	display: flex;
+	justify-content: left;
+	width: 100%;
+	height: 100%;
+	font-weight: 300;
+}
