@@ -14,9 +14,17 @@ const routes: RouteObject[] = [
 			{ path: "/projects", element: <Project /> },
 			{ path: "/blog", element: <Blog /> },
 			{ path: "*", element: <ErrorPage /> },
-			...blog.map((data) => (
-				{ path: `/blog/${data.url}`, element: <BlogItem name={data.name} description={data.description} content={data.content} /> }
-			))
+			...blog.map((data) => ({
+				path: `/blog/${data.url}`,
+				element: (
+					<BlogItem
+						name={data.name}
+						description={data.description}
+						date={data.date}
+						content={data.content}
+					/>
+				),
+			})),
 		],
 	},
 ];
