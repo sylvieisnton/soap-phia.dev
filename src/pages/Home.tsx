@@ -23,7 +23,7 @@ export default function HomePage() {
 					<div className="bio">
 						<h3>About Me</h3>
 						<h4 className="bio-text">
-							Hi there! My name is Sophia, call me Sophie if you'd like.
+							Hi there! My name is Sylvia, call me Sylvie if you'd like.
 							<br />
 							<br />
 							I'm a programmer, and do backend/frontend development. I mainly
@@ -49,6 +49,14 @@ export default function HomePage() {
 							<h4 className="bio-text">
 								I'm in various communities, but you're able to find me primarily
 								in{" "}
+								<a
+									target="_blank"
+									href="https://titaniumnetwork.org/"
+									rel="noopener"
+								>
+									Titanium Network
+								</a>{" "}
+								and{" "}
 								<a target="_blank" href="https://night-x.com/" rel="noopener">
 									Night Network
 								</a>
@@ -56,6 +64,23 @@ export default function HomePage() {
 							</h4>
 						</div>
 						<div className="external">
+							<h.Social
+								name="TitaniumNetwork"
+								logo="https://github.com/titaniumnetwork-dev.png"
+								elId="social-titaniumnetwork"
+							/>
+							<h.SocialModal
+								elId="titaniumnetwork"
+								name="TitaniumNetwork"
+								logo="https://github.com/titaniumnetwork-dev.png"
+								site="https://titaniumnetwork.org/"
+								discord="unblock"
+							/>
+							<h.Social
+								name="Night Network"
+								logo="https://github.com/Night-N3twork.png"
+								elId="social-nightnetwork"
+							/>
 							<h.SocialModal
 								elId="nightnetwork"
 								name="Night Network"
