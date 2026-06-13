@@ -23,7 +23,7 @@ export default function HomePage() {
 					<div className="bio">
 						<h3>About Me</h3>
 						<h4 className="bio-text">
-							Hi there! My name is Sophia, call me Sophie if you'd like.
+							Hi there! My name is Sylvia, call me Sylvie if you'd like.
 							<br />
 							<br />
 							I'm a programmer, and do backend/frontend development. I mainly
